@@ -2,7 +2,7 @@ public class Array1D
 {
 	public static void main(String args[])
 	{
-		double percent[]; // Declaration of Array
+		double []percent; // Declaration of Array
 		percent = new double[6]; // Array Instantiation (Object creation)
 		percent[0] = 76.13; // Array Initialization
 		percent[1] = 77.23;
