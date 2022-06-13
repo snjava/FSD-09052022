@@ -2,11 +2,11 @@ public class Array2D_1
 {
 	public static void main(String args[])
 	{
-		double percent[][];
-		percent = new double[3][6]; 
-		percent[1][1] = 67.76;
+		double percent[][]; // Declaration 
+		percent = new double[3][6];  // instantiation 
+		percent[1][1] = 67.76; // Initialization 
 		percent[0][3] = 77.23;
-		percent[2][2] = 81.12;		
+		percent[2][2] = 81.12;
 		
 		System.out.println("Total Rows : " + percent.length); // total number of rows
 		System.out.println("Total Column : " + percent[1].length); // total number of column of 1st row
@@ -21,3 +21,19 @@ public class Array2D_1
 		}
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
