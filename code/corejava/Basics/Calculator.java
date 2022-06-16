@@ -1,5 +1,17 @@
 public class Calculator
 {
+	// input 2 number from parameter and return the addition
+	public int addition(int a, int b) 
+	{
+		return (a+b);
+	}
+	
+	// input the addition of the number return by above method and print the square
+	
+	public void square(int num) 
+	{
+		System.out.println("Suqare : " + (num*num));
+	}
 
 // add: create add method to peform addition of 2 number and print output
 	public void add()
@@ -37,6 +49,22 @@ public class Calculator
 	public static void main(String ar[])
 	{
 		System.out.println("main method started");
+
+		Calculator cal; // reference Variable
+		cal = new Calculator(); // Object/Instance
+
+		cal.add(); // cotrol goes to a add method
+		cal.sub(12, 4); // values which is passed to method also called as argument
+
+		int mulAns = cal.mul();
+		System.out.println("Mul : " + mulAns);
+
+		System.out.println("Div : " + cal.div(12, 4));
+
+		int ans = cal.addition(3, 2);
+		cal.square(ans);
+
+		//cal.square(cal.addition(3, 2));
 
 		System.out.println("main method Ends");
 	}
