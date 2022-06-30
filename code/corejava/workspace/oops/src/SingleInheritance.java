@@ -1,12 +1,16 @@
 public class SingleInheritance {
 	
 	public static void main(String[] args) {
+		
 		B b = new B();
+		
+		System.out.println(b.toString()); // ClassName@HashCode
+		
 		b.m1();
 		b.m2();
 	}
 }
-class A 
+class A extends Object
 {
 	int x = 20;
 	public void m1() {
@@ -23,3 +27,28 @@ class B extends A
 		System.out.println("m2() from class B");
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
