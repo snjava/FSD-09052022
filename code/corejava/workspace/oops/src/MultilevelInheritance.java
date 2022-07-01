@@ -8,7 +8,7 @@ public class MultilevelInheritance {
 class C1
 {
 	public C1() {
-		super();
+		super(); // 
 		System.out.println("Class C1");
 	}
 }
